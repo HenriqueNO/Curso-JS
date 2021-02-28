@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+}
+header{
+    color: white;
+    font: bold 40pt Arial;
+    text-align: center;
+    font-style: italic;
+}
+section{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 102);
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 5px
+}

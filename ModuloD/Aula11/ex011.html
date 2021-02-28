@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Gringo ou Brasileiro</h1>
+    Sua nascionalidade: <input type="text" name="txtnasc" id="txtnasc">
+    <input type="button" value="Avaliar" onclick='responder()'>
+    <div id="res"> </div>
+
+    <script>
+        function responder(){
+            var n = document.getElementById('txtnasc')
+            var res = document.querySelector('div#res')
+            var nasc = (n.value)
+            res.innerHTML = `Morando em ${nasc} `
+            if(nasc == 'brasil'){
+            res.innerHTML += 'Você é brasileiro'
+            }else{
+                res.innerHTML += 'Você é estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>Analisador de números</header>
+    <section>
+        <div>
+            <p>Número (entre 1 a 100):<input type="number" name="nume" id="nume">
+            <input type="button" value="Adicionar" onclick='adicionar()'></p>
+            <p><select name="lista" id="lista" size='10'>
+                <Option>Lista de números</Option>
+            </select></p>
+            <input type="button" value="Finalizar" onclick='Analisar()'>
+        </div>
+        <div id='res'>
+            
+        </div>
+    </section>
+    <footer>&copy;HenriqueTheDigital</footer>
+    <script src="script.js"></script>
+</body>
+</html>
